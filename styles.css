@@ -1,36 +1,68 @@
+/* Global Styles */
 * {
     font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 10px;
-}
-
-div {}
-
+/* Body Styles */
 body {
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
     width: 100%;
 }
 
-p {
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
+/* Section Styles */
+section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    max-width: 320px;
+    max-height: 497px;
 }
 
-h1 {
-    color: hsl(218, 44%, 22%);
+/* QR Code Container Styles */
+.qr-container {
+    margin-bottom: 20px;
 }
 
 .qr-container img {
     border-radius: 10px;
+    width: 100%;
+    height: auto;
 }
 
+.text {
+    width: 288px;
+    height: 129px;
+    gap: 16px;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 1.5rem;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* Image Styles */
 img {
-    width: 300px;
-    height: 300px;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
 }
