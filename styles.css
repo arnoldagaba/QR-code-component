@@ -1,0 +1,36 @@
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div {}
+
+body {
+    background-color: lightgray;
+    width: 100%;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-container img {
+    border-radius: 10px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
